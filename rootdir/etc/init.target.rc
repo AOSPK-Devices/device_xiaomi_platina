@@ -193,12 +193,6 @@ service boot_lc_main /system/bin/logcat -f /cache/boot_lc_main.txt
 #    chown system drmrpc /sys/devices/f9966000.i2c/i2c-1/1-0020/secure_touch_enable
 #    chown system drmrpc /sys/devices/f9966000.i2c/i2c-1/1-0020/secure_touch
 
-service energy-awareness /system/vendor/bin/energy-awareness
-    class main
-    user system
-    group system
-    oneshot
-
 service vendor.pd_mapper /system/vendor/bin/pd-mapper
      class core
 

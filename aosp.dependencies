@@ -1,20 +1,26 @@
 [
   {
-    "repository"  : "vendor_xiaomi_platina",    
-    "target_path" : "vendor/xiaomi/platina",
-    "branch"      : "eleven",
-    "remote"      : "pixel-devices-blobs"
+    "remote"     : "github",
+    "repository" : "AOSPK-Devices/device_xiaomi_platina",
+    "target_path": "device/xiaomi/platina",
+    "branch"     : "twelve"
   },
   {
-    "remote":      "github",
-    "repository" : "PixelExperience-Devices/kernel_xiaomi_platina",
+    "repository" : "vendor_xiaomi_platina",    
+    "target_path": "vendor/xiaomi/platina",
+    "branch"     : "twelve",
+    "remote"     : "blobs"
+  },
+  {
+    "remote"     : "github",
+    "repository" : "AOSPK-Devices/kernel_xiaomi_sdm660",
     "target_path": "kernel/xiaomi/platina",
-    "branch"     : "eleven"
+    "branch"     : "twelve"
   },
   {
-    "repository": "vendor_xiaomi-firmware",
-    "target_path": "vendor/xiaomi-firmware",
-    "branch":"eleven",
-    "remote":"pixel-devices-blobs"
+    "repository": "allan.pereira.araujo02/vendor_xiaomi-firmware",
+    "target_path": "vendor/xiaomi-firmware/platina",
+    "branch":"master",
+    "remote":"gitlab"
   }
 ]

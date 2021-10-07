@@ -200,6 +200,11 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so
 
+# SOC
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.soc.manufacturer=Qualcomm \
+    ro.soc.model=SDM660
+
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.multisim.config=dsds \

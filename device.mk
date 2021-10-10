@@ -435,6 +435,10 @@ PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
+# TinyXML
+PRODUCT_PACKAGES += \
+    libtinyxml
+
 # Thermal
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0-service.mock

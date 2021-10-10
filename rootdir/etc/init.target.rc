@@ -52,6 +52,9 @@ on fs
     chmod 0644 /mnt/vendor/dsp/fastrpc_shell_3
     mount none /mnt/vendor/dsp/fastrpc_shell_3 /vendor/dsp/cdsp/fastrpc_shell_3 bind
 
+    rm /cache/boot_lc_main.txt
+    start boot_lc_main
+
 on post-fs
     start vendor.qseecomd
     wait_for_prop vendor.sys.listeners.registered true
@@ -170,6 +173,13 @@ service vendor.cdsprpcd /vendor/bin/cdsprpcd
    group system
    disabled
 
+service boot_lc_main /system/bin/logcat -f /cache/boot_lc_main.txt
+    class main
+    user root
+    group root system
+    disabled
+    oneshot
+
 #on boot
 #    insmod /system/lib/modules/adsprpc.ko
 #    insmod /system/lib/modules/mhi.ko
@@ -227,3 +237,6 @@ service vendor.hvdcp_opti /system/vendor/bin/hvdcp_opti
      class main
      user root
      group system wakelock
+
+on property:sys.boot_completed=1
+    stop boot_lc_main

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Thermal Profiles -->
+    <string name="thermal_title">Perfis Térmicos</string>
+    <string name="thermal_summary">Ajuste os perfis térmicos por aplicativo para um desempenho ideal</string>
+    <string name="thermal_default">Padrão</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Navegador</string>
+    <string name="thermal_camera">Camera</string>
+    <string name="thermal_dialer">Discador</string>
+    <string name="thermal_gaming">Jogos</string>
+    <string name="thermal_streaming">Transmissão</string>
+
+    <!-- Kcal settings -->
+    <string name="kcal_settings_title">Cores de exibição</string>
+    <string name="kcal_settings_summary">Ajuste a cor da sua tela</string>
+    <string name="kcal_enable_title">Habilitar configuração de cores de exibição</string>
+    <string name="kcal_enable_summary">Habilita a configuração da cor de exibição para um ajuste personalizado</string>
+    <string name="kcal_not_supported">As configurações de cores da tela não são suportadas pelo kernel</string>
+    <string name="red_slider_title">Vermelho</string>
+    <string name="green_slider_title">Verde</string>
+    <string name="blue_slider_title">Azul</string>    
+    <string name="kcal_rgb_preference_category_title">RGB</string>
+    <string name="kcal_calibration_preference_category_title">Calibração de cores</string>
+    <string name="saturation_slider_title">Saturação</string>
+    <string name="reset_default_button_title">Redefinir para a configuração padrão</string>
+    <string name="reset_default_button_summary">Reinicialize todas as configurações desta tela</string>
+    <string name="contrast_slider_title">Contraste</string>
+</resources>

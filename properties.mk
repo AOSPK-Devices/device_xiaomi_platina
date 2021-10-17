@@ -233,6 +233,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true
 
+# IORAP
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
 # Set lmkd options
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.low_ram=false \

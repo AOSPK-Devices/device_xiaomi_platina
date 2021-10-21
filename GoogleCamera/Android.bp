@@ -6,7 +6,7 @@ android_app_import {
         enabled: false,
     },
     privileged: true,
-    required: ["com.google.android.GoogleCameraEng"],
+    required: ["com.google.android.GoogleCamera.Urnyx"],
     overrides: [
         "SnapdragonCamera",
         "Snap",
@@ -18,9 +18,9 @@ android_app_import {
 }
 
 prebuilt_etc {
-    name: "com.google.android.GoogleCameraEng",
+    name: "com.google.android.GoogleCamera.Urnyx",
     sub_dir: "permissions",
-    src: "product/etc/permissions/com.google.android.GoogleCameraEng.xml",
+    src: "product/etc/permissions/com.google.android.GoogleCamera.Urnyx.xml",
     filename_from_src: true,
     product_specific: true,
 }

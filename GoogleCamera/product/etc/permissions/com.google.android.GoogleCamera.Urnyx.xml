@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <permissions>
-    <privapp-permissions package="com.google.android.GoogleCameraEng">
+    <privapp-permissions package="com.google.android.GoogleCamera.Urnyx">
         <permission name="android.permission.BIND_WALLPAPER"/>
     </privapp-permissions>
 
